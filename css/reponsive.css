@@ -1,13 +1,10 @@
 /* PC
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 
 }
 /*tablet and mobile */
 
-@media (max-width: 1023px) {
-    #nav li {
-        padding: 4px 0;
-    }
+@media (max-width: 63.9375em) {
     .form-send,
     .buy-ticket {
         padding: 16px 16px;
@@ -28,12 +25,12 @@
 }
 
 /*Tablet
-@media (max-width: 1023px) and (min-width: 740px) {
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
 
 } */
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100%;
